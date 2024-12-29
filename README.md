@@ -1,0 +1,1 @@
+# magikinfo.github.io

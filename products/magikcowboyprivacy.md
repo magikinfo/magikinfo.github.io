@@ -4,7 +4,7 @@ title: Magik Cowboy Privacy Policy
 permalink: /products/magikcowboy/privacy
 ---
 ## Privacy Policy
-Effective Date: January 2025
+Effective Date: March 28, 2026
 
 At Magikinfo LLC, we value your privacy and are committed to protecting it. This privacy policy outlines how we handle your information when you use our services.
 

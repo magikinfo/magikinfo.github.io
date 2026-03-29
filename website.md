@@ -4,7 +4,7 @@ title: About our website
 permalink: /website/
 ---
 
-The website is built using [jekyllrb.com](https://jekyllrb.com/)
+The website is built using [Jekyll](https://jekyllrb.com/)
 
 You can find the source code for Minima on GitHub:
 [jekyll][jekyll-organization] /

@@ -10,11 +10,15 @@ company:
    3122 191st ST SE,<br>
    Bothell, WA  98012
 
+# Magik Cowboy — App Store Connect: set app_store_url when the listing is live.
+magik_cowboy:
+  app_store_url: ""
+
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  More information coming soon.
+  Magikinfo LLC builds specialized software. Magik Cowboy is our Team Cowboy client for iOS.
 
 
 # Build settings

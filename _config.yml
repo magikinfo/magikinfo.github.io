@@ -18,7 +18,7 @@ magik_cowboy:
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  Magikinfo LLC builds specialized software. Magik Cowboy is our Team Cowboy client for iOS.
+  Magikinfo LLC builds specialized software. Magik Cowboy is a Team Cowboy client for schedules, RSVPs, and who is attending—on iPhone and iPad.
 
 
 # Build settings

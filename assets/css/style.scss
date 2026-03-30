@@ -5,3 +5,101 @@
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
+
+/* Magik Cowboy product page — two thumbnails side by side (wraps on narrow viewports) */
+.post-content .magikcowboy-screenshots {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.25rem 2rem;
+  margin: 1.25rem 0 1.75rem;
+}
+
+.post-content .magikcowboy-thumb {
+  display: block;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: transparent;
+  cursor: zoom-in;
+  border-radius: 8px;
+  line-height: 0;
+}
+
+.post-content .magikcowboy-thumb:focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: 3px;
+}
+
+/* ~50% larger than prior 100px thumbnails */
+.post-content .magikcowboy-thumb img {
+  display: block;
+  width: 150px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
+}
+
+/* Full-screen lightbox (HTML dialog) */
+.magikcowboy-lightbox {
+  border: none;
+  padding: 0;
+  margin: 0;
+  max-width: 100vw;
+  max-height: 100vh;
+  width: 100vw;
+  height: 100vh;
+  background: transparent;
+  box-sizing: border-box;
+}
+
+.magikcowboy-lightbox::backdrop {
+  background: rgba(0, 0, 0, 0.88);
+  cursor: zoom-out;
+}
+
+.magikcowboy-lightbox[open] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.magikcowboy-lightbox-img {
+  display: block;
+  max-width: min(100vw - 2rem, 100%);
+  max-height: min(100vh - 2rem, 100%);
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  margin: auto;
+}
+
+.magikcowboy-lightbox-close {
+  position: fixed;
+  top: 0.75rem;
+  right: 0.75rem;
+  z-index: 2;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0;
+  border: none;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  font-size: 1.75rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.magikcowboy-lightbox-close:hover,
+.magikcowboy-lightbox-close:focus-visible {
+  background: rgba(255, 255, 255, 0.22);
+  outline: none;
+}
+
+.magikcowboy-lightbox-close:focus-visible {
+  box-shadow: 0 0 0 2px #fff;
+}

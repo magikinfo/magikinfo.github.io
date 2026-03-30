@@ -14,6 +14,6 @@ We build **specialized software** for people and teams who need tools tailored t
 
 ## Products
 
-**[Magik Cowboy]({{ '/products/magikcowboy' | relative_url }})** is our client for [Team Cowboy](https://teamcowboy.com) on iPhone and iPad. An Android version is still in development and will be coming soon.
+**[Magik Cowboy]({{ '/products/magikcowboy' | relative_url }})** is our [Team Cowboy](https://teamcowboy.com) client for iPhone and iPad. It makes it easy to view your sports events schedule, RSVP, and see who is attending. An Android version is still in development and will be coming soon.
 
 See the **[Products]({{ '/products/' | relative_url }})** page for details, support, and legal information.

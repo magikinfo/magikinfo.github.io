@@ -43,6 +43,31 @@
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
 }
 
+/* App Store badge (Apple marketing asset) */
+.post-content .magikcowboy-app-store-badge {
+  margin: 0.5rem 0 1.25rem;
+}
+
+.post-content .magikcowboy-app-store-badge a {
+  display: inline-block;
+  line-height: 0;
+  border-radius: 4px;
+}
+
+.post-content .magikcowboy-app-store-badge a:focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: 3px;
+}
+
+.post-content .magikcowboy-app-store-badge img {
+  display: inline-block;
+  width: 246px;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  object-fit: contain;
+}
+
 /* Full-screen lightbox (HTML dialog) */
 .magikcowboy-lightbox {
   border: none;

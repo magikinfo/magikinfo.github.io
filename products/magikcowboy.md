@@ -58,7 +58,11 @@ An Android version is still in development and will be coming soon.
 </script>
 
 {% if site.magik_cowboy.app_store_url != "" %}
-**[Download on the App Store]({{ site.magik_cowboy.app_store_url }})**{:target="_blank"}
+<p class="magikcowboy-app-store-badge">
+  <a href="{{ site.magik_cowboy.app_store_url }}" target="_blank" rel="noopener noreferrer">
+    <img src="{{ site.magik_cowboy.app_store_badge_image_url }}" alt="Download on the App Store" width="246" height="82" loading="lazy" decoding="async" />
+  </a>
+</p>
 {% else %}
 Coming soon on the App Store.
 {% endif %}

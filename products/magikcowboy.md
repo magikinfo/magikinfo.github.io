@@ -72,3 +72,9 @@ For help with Magik Cowboy, email [support@magikinfo.com](mailto:support@magikin
 
 - [Privacy policy]({{ '/products/magikcowboy/privacy' | relative_url }})
 - [Terms of use]({{ '/products/magikcowboy/terms' | relative_url }})
+
+#### Logos (Vecteezy)
+
+Certain logos used for Magik Cowboy on this site are licensed from [Vecteezy](https://www.vecteezy.com/) and Brian Goff.
+
+For full rules, see [Vecteezy’s licensing section](https://www.vecteezy.com/licensing) or contact Vecteezy support. The [Vecteezy Terms of Use](https://www.vecteezy.com/terms) supersede any summary on this page.

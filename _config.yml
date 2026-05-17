@@ -10,17 +10,18 @@ company:
    3122 191st ST SE,<br>
    Bothell, WA  98012
 
-# Magik Cowboy — App Store Connect: set app_store_url when the listing is live.
-# Badge image: Apple Marketing Tools (hosted by Apple; see App Store marketing guidelines).
+# Magik Cowboy — store URLs and official badge assets (Apple Marketing Tools; Google Play badge assets).
 magik_cowboy:
   app_store_url: "https://apps.apple.com/us/app/magik-cowboy/id6740537521?itscg=30200&itsct=apps_box_badge&mttnsubad=6740537521"
   app_store_badge_image_url: "https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1775433600"
+  play_store_url: "https://play.google.com/store/apps/details?id=com.magikinfo.magikcowboy"
+  play_store_badge_image_url: "https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
 
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  Magikinfo LLC builds specialized software. Magik Cowboy is a Team Cowboy client for schedules, RSVPs, and who is attending—on iPhone and iPad.
+  Magikinfo LLC builds specialized software. Magik Cowboy is a Team Cowboy client for schedules, RSVPs, and who is attending—on iPhone, iPad, and Android.
 
 
 # Build settings

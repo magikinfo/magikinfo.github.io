@@ -6,9 +6,7 @@ permalink: /products/magikcowboy
 {% assign magikcowboy_schedule_img = '/assets/images/magikcowboy/schedule.png' | relative_url %}
 {% assign magikcowboy_detail_img = '/assets/images/magikcowboy/event-detail.png' | relative_url %}
 
-Magik Cowboy is a [Team Cowboy](https://teamcowboy.com) client for iOS (iPhone and iPad). It is designed so you can easily look at your sports events schedule, RSVP, and see who is attending.
-
-An Android version is still in development and will be coming soon.
+Magik Cowboy is a [Team Cowboy](https://teamcowboy.com) client for **iOS** (iPhone and iPad) and **Android**. It is designed so you can easily look at your sports events schedule, RSVP, and see who is attending.
 
 - **Schedule** — See your teams’ upcoming events in one scroll: date and time, opponent, location, and team notes—with color-coded RSVP counts so you can see who is in at a glance.
 - **Event detail** — Open an event to set your status (yes, maybe, or no), add a comment, and see who is **Playing** or cannot make it.
@@ -57,14 +55,27 @@ An Android version is still in development and will be coming soon.
 })();
 </script>
 
-{% if site.magik_cowboy.app_store_url != "" %}
-<p class="magikcowboy-app-store-badge">
-  <a href="{{ site.magik_cowboy.app_store_url }}" target="_blank" rel="noopener noreferrer">
-    <img src="{{ site.magik_cowboy.app_store_badge_image_url }}" alt="Download on the App Store" width="246" height="82" loading="lazy" decoding="async" />
-  </a>
-</p>
+{% assign mc_ios = site.magik_cowboy.app_store_url %}
+{% assign mc_android = site.magik_cowboy.play_store_url %}
+{% if mc_ios != "" or mc_android != "" %}
+<div class="magikcowboy-store-badges" markdown="0">
+  {% if mc_ios != "" %}
+  <p class="magikcowboy-store-badge magikcowboy-app-store-badge">
+    <a href="{{ mc_ios }}" target="_blank" rel="noopener noreferrer">
+      <img src="{{ site.magik_cowboy.app_store_badge_image_url }}" alt="Download on the App Store" width="210" height="70" loading="lazy" decoding="async" />
+    </a>
+  </p>
+  {% endif %}
+  {% if mc_android != "" %}
+  <p class="magikcowboy-store-badge magikcowboy-play-store-badge">
+    <a href="{{ mc_android }}" target="_blank" rel="noopener noreferrer">
+      <img src="{{ site.magik_cowboy.play_store_badge_image_url }}" alt="Get it on Google Play" width="268" height="88" loading="lazy" decoding="async" />
+    </a>
+  </p>
+  {% endif %}
+</div>
 {% else %}
-Coming soon on the App Store.
+Coming soon on the App Store and Google Play.
 {% endif %}
 
 ### Support
